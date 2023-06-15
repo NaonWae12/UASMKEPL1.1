@@ -9,21 +9,21 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("=== Kalkulator Sederhana ===");
-        System.out.println("Inputkan angka yang pertama:");
+        System.out.println("Masukkan angka pertama:");
         String num1Str = scanner.nextLine();
 
         if (!NumberUtils.isCreatable(num1Str)) {
-            System.out.println("Input yang dimasukkan tidak valid!");
+            System.out.println("Input tidak valid!");
             return;
         }
 
         double num1 = Double.parseDouble(num1Str);
 
-        System.out.println("Inputkan angka yang kedua:");
+        System.out.println("Masukkan angka kedua:");
         String num2Str = scanner.nextLine();
 
         if (!NumberUtils.isCreatable(num2Str)) {
-            System.out.println("Input yang dimasukkan tidak valid!");
+            System.out.println("Input tidak valid!");
             return;
         }
 
