@@ -9,7 +9,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("=== Kalkulator Sederhana ===");
-        System.out.println("Masukkan angka pertama:");
+        System.out.println("Inputkan angka pertama:");
         String num1Str = scanner.nextLine();
 
         if (!NumberUtils.isCreatable(num1Str)) {
@@ -19,7 +19,7 @@ public class App {
 
         double num1 = Double.parseDouble(num1Str);
 
-        System.out.println("Masukkan angka kedua:");
+        System.out.println("Inputkan angka kedua:");
         String num2Str = scanner.nextLine();
 
         if (!NumberUtils.isCreatable(num2Str)) {
@@ -54,7 +54,7 @@ public class App {
                 result = num1 / num2;
                 break;
             default:
-                System.out.println("Pilihan tidak valid!");
+                System.out.println("Pilihan yang diinputkan tidak valid!");
                 return;
         }
 
