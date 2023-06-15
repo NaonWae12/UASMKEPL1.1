@@ -42,13 +42,13 @@ public class App {
 
         switch (choice) {
             case 1:
-                result = num1 + num2;
+                result = num2 + num2;
                 break;
             case 2:
-                result = num1 - num2;
+                result = num2 - num2;
                 break;
             case 3:
-                result = num1 * num2;
+                result = num2 * num2;
                 break;
             case 4:
                 result = num1 / num2;
