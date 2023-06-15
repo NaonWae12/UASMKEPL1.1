@@ -32,7 +32,7 @@ public class App {
         System.out.println("Pilih operasi matematika:");
         System.out.println("1. Penjumlahan (+)");
         System.out.println("2. Pengurangan (-)");
-        System.out.println("3. Perkalian (*)");
+        System.out.println("3. Perkalian (*)")
         System.out.println("4. Pembagian (/)");
 
         String choiceStr = scanner.nextLine();
