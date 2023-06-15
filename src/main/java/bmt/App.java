@@ -9,7 +9,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("=== Kalkulator Sederhana ===");
-        System.out.println("Masukkan angka pertama:");
+        System.out.println("Masukkan angka yang pertama:");
         String num1Str = scanner.nextLine();
 
         if (!NumberUtils.isCreatable(num1Str)) {
@@ -19,7 +19,7 @@ public class App {
 
         double num1 = Double.parseDouble(num1Str);
 
-        System.out.println("Masukkan angka kedua:");
+        System.out.println("Masukkan angka yang kedua:");
         String num2Str = scanner.nextLine();
 
         if (!NumberUtils.isCreatable(num2Str)) {
