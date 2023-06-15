@@ -22,7 +22,7 @@ public class App {
         System.out.println("Masukkan angka kedua:");
         String num2Str = scanner.nextLine();
 
-        if (!NumberUtils.isCreatable(num2Str)) {
+        if (!NumberUtils.isCreatable(num1Str)) {
             System.out.println("Input tidak valid!");
             return;
         }
