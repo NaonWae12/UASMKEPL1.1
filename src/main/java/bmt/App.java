@@ -38,7 +38,7 @@ public class App {
         String choiceStr = scanner.nextLine();
         int choice = Integer.parseInt(choiceStr);
 
-        double result = 0;
+        double result = 1;
 
         switch (choice) {
             case 1:
